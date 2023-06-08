@@ -9,7 +9,6 @@
 #
 # Normal rules
 #
-.*
 *.o
 *.o.*
 *.a
@@ -51,11 +50,6 @@ Module.symvers
 /vmlinuz
 /System.map
 /Module.markers
-
-#
-# Debian directory (make deb-pkg)
-#
-/debian/
 
 #
 # tar directory (make tar*-pkg)
